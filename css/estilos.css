@@ -1,3 +1,27 @@
-header{
+/* reglas 
+selectores
+declaraciones
+propiedades
+valores */
+
+
+
+
+
+/* selector de etiqueta '' header - section */
+
+ header{
     background:pink !important;
-}
+
+
+
+/* selector descendente'' */
+/* body header div nave ol li a '' */
+
+/* selector de clase . */
+
+/* .link */
+
+/* selector de id # */
+/* #portafolio */
+

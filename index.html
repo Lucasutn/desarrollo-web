@@ -12,35 +12,34 @@
 
         <link rel="stylesheet" href="css/estilos.css">
 
-        <style>
-           header{
-               background: green;
-           }
-        </style>
 
     </head>
 
 
     <body>
 
-        <header style="color: red; background: blue; ">
+        <header class="header">
 
             <div>
-                <figure>
+                <figure class="logo">
                     <img src="imagenes/6E3.gif" alt="Logo de https://www.wixmp.com/ "/> 
                 </figure>
 
-                <nav>
+                <nav class="menu">
                         <ol>
+
                             <li>
-                                <a href="./portafolio/index.html"> Portafolio</a>
+                                <a class="link" href="./portafolio/index.html"> Portafolio</a>
                             </li>
+
                             <li>
-                                <a href="#web" >Experiencia</a>
+                                <a class="link" href="#web" >Experiencia</a>
                             </li>
+
                             <li>
-                                <a href="#contactos">Trabajemos juntos</a>
+                                <a class="link" href="#contactos">Trabajemos juntos</a>
                             </li>
+
                         </ol>
                 </nav>
 
@@ -48,7 +47,7 @@
 
         </header>
 
-                <section>
+                <section class="hero">
 
                     <h1>Hola <br/> <strong>soy Lucas Hernan</strong>  Especialista en <strong>Cosas, licenciatura en memes con</strong>  <br/> pasion por las matematicas</h1>
 
@@ -57,47 +56,50 @@
                 </section>
 
 
-                <section id="portafolio">
+                <section id="portafolio" class="portfolio"  >
 
                     <h2>Portafolio (proyecto destacados)</h2>
 
-                        <article>
+                        <article class="project">
 
-                            <h3>Curso de html</h3>
+                            <h3 class="project-title">Curso de html</h3>
 
-                            <h6>React Native / React</h6>
+                            <h6 class="project-course">React Native / React</h6>
                             
-                                <p><small><strong>Fecha: </strong> 17/08/2019</small></p>
-                                <p><small><strong>Puedes verlo en: </strong> Negrita Native</small></p>
-                                <p>React Native es un marco de aplicaciones móviles de código abierto creado por Facebook.</p>
-                                <img src="imagenes/68f36a43-726c-4d08-9e85-b59e0b6f1d35.png" alt="imagenes del pc" >
+                                <p class="project-date"><small><strong>Fecha: </strong> 17/08/2019</small></p>
+                                <p class="project-url"><small><strong>Puedes verlo en: </strong> Negrita Native</small></p>
+                                <p class="project-description">React Native es un marco de aplicaciones móviles de código abierto creado por Facebook.</p>
+                                
+                                <figure class="project-imageContainer">
+                                        <img class="project-image" src="imagenes/68f36a43-726c-4d08-9e85-b59e0b6f1d35.png" alt="imagenes del pc" >
+                                </figure>
 
                         </article>
 
                 </section>
 
 
-                <section id="web">
+                <section id="eventos">
 
                     <h2>Mas sobre la web</h2>
 
-                    <article>
+                    <article class="event">
 
-                        <figure>
-                            <img src="imagenes/ap,550x550,16x12,1,transparent,t.u10.png" alt="imagen pepe">
+                        <figure class="event-imageContainer">
+                            <img class="event-image" src="imagenes/ap,550x550,16x12,1,transparent,t.u10.png" alt="imagen pepe">
                         </figure>
 
-                        <h3>Argentina 2018</h3>
-                                    <p>Se utiliza para desarrollar aplicaciones para Android, iOS, Web y UWP permitiendo a los desarrolladores usar React junto con las capacidades de la plataforma nativa.</p>
-                                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Ver info</a>
+                        <h3 class="event-title">Argentina 2018</h3>
+                                    <p class="event-description">Se utiliza para desarrollar aplicaciones para Android, iOS, Web y UWP permitiendo a los desarrolladores usar React junto con las capacidades de la plataforma nativa.</p>
+                                    <a class="event-url" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Ver info</a>
                     </article>
 
                 </section>
 
 
-                <section id="contactos"> 
+                <section id="contactos" class="contact"> 
 
-                    <form action="/suscripcion/">
+                    <form action="/suscripcion/" class="form-email">
                         <h3>Creamos algo juntos?</h3>
                         <input type="text" placeholder="Déjame tu email" id="email" >
                         <button>Enviar</button>
@@ -106,7 +108,7 @@
                 </section>
  
        
-        <footer>footer</footer>
+        <footer class="footer">footer</footer>
 
   
     </body>
