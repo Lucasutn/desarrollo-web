@@ -121,6 +121,21 @@ h1 strong{
 .header {
     background-color: #000000;
     color: white;
+    display: flex;
+    height: 90px;
+    /* align-items:center;  */
+    justify-content: space-between;
+}
+
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+    margin: 0;
 }
 
 .header a{
@@ -129,6 +144,25 @@ h1 strong{
 
 }
 
+.menu{
+    height: inherit ;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    height: inherit ;
+    padding: 0 10px;
+}
 
 .flexbox{
     display: flex;
