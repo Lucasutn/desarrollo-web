@@ -33,7 +33,8 @@ align-self: flex-start; */
 /* gris oscuro = #1d252c
 gris claro = #626262
 background gris = #1b2127
-celeste = #026fff*/
+celeste = #026fff
+#1c2127 */
 
 
 
@@ -84,15 +85,22 @@ h2{
 
 .hero{
     height: 300px;
-    background-image: url('../imagenes/6914741-black-android-logo.jpg');
-    background-color: dimgrey;
-    background-size: 500px 300px;
-    background-repeat: no-repeat;
-    background-position-x:right;
+    /* background-image: url('../imagenes/6914741-black-android-logo.jpg'); */
+    background-color: #1c2127;
+    /* background-size: 500px 300px; */
+    /* background-repeat: no-repeat; */
+    /* background-position-x:right; */
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image{
+
+    object-fit: cover;
 
 }
+
 
 .portfolio{
     background: #fafafa;
@@ -240,6 +248,7 @@ figure{
 
 .event-list{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .event-list-tittle{
@@ -359,4 +368,16 @@ figure{
 
 .form-email h3{
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    /* border: 1px solid red; */
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+
 }
