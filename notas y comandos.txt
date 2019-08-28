@@ -1,0 +1,2 @@
+viewport(area visible navegador)
+portrait-Landscape( smartphone)
