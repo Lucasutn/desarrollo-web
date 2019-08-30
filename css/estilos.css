@@ -93,6 +93,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hero-image{
@@ -132,6 +133,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -175,6 +177,7 @@ h2{
     height: 70px;
     align-items:center; 
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 ol,
@@ -236,6 +239,7 @@ figure{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer img{
@@ -307,6 +311,7 @@ figure{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .social{
@@ -372,12 +377,36 @@ figure{
 
 .container{
     /* border: 1px solid red; */
-    width: 1000px;
+    /* width: 1000px; */
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
+
+}
+
+/* desktop first que empieces desde el MQ MAS GRANDE */
+
+
+
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 768px){
+
+
+}
+
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (max-width: 320px){
+    body{
+        /* border: 10px solid green; */
+    }
 
 }
