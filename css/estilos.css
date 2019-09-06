@@ -427,6 +427,30 @@ figure{
 
 }
 
+
+.burger-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    background-color: rgba(0, 0, 0, .8);
+    /* display: block; */
+    display: none;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;  */
+    /* nueva manera de alinear */
+    line-height: 40px;
+    text-align: center;
+    position: fixed;
+    z-index: 4;
+    left: 5px;
+    top: 5px;
+    color: white;
+    /* font-size: 50px; */
+
+
+}
+
 /* desktop first que empieces desde el MQ MAS GRANDE */
 
 
@@ -493,6 +517,12 @@ figure{
 }
 
 @media screen and (max-width: 767px){
+
+    .burger-button{
+
+        display: block;
+
+        }
 
     .header{
         display: block;
