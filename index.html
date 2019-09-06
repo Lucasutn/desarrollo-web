@@ -37,7 +37,7 @@
     <body>
         
         <!-- <span class="icon-menu"></span> -->
-        <i class="icon-menu burger-button"></i>
+        <i class="icon-menu burger-button" id="burger-menu"></i>
 
         <header class="header">
 
@@ -284,6 +284,29 @@
 
         </footer>
 
+        <script>
+            console.log('Hola Mundo');
+            // console.log(document.querySelector('.menu'));
+
+            const menu = document.querySelector('.menu');
+            console.log(menu);
+            const burgerButton = document.querySelector('#burger-menu');
+            console.log(burgerButton);
+
+            burgerButton.addEventListener('click', hideShow)
+
+            function hideShow(){
+                if(menu.classList.contains('is-active')){
+                    
+                        menu.classList.remove('is-active');
+
+                }else{
+                        menu.classList.add('is-active');
+
+                }
+            }
+
+        </script>
   
     </body>
 
