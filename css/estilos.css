@@ -455,7 +455,15 @@ figure{
 
 
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
+
+    .event-list-tittle{
+        margin-left: 0;
+    }
+
+    .portfolio{
+        padding: 0;
+    }
 
     .container{
         padding: 0 1em;
@@ -517,6 +525,11 @@ figure{
 }
 
 @media screen and (max-width: 767px){
+
+    h2 {
+        font-size: 1.2em;
+        margin: .4em 0;
+    }
 
     .burger-button{
 
@@ -613,7 +626,7 @@ figure{
     }
 
     .project-description{
-        font-size: .8em;
+        font-size: 1em;
     }
 
     .event {
@@ -636,7 +649,7 @@ figure{
 
     .project-details{
        
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .event-detail{
@@ -664,6 +677,12 @@ figure{
         display: block;
         text-align: center;
         border: 1px solid transparent;
+    }
+
+    .social-link{
+        width: 40px;
+        height: 40px;
+        background-size: 100%;
     }
 
 }
